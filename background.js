@@ -54,7 +54,7 @@ chrome.omnibox.onInputEntered.addListener(
     chrome.tabs.update(null, { url: apiurl },
 
       // callback function, after we've moved to the above URL...
-      function() { var handbrake = 50;
+      function() { var handbrake = 200; // quit after trying for 10s
 
         // "cleared" is set to true when the interval loop is exited
         var cleared = false;
