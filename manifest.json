@@ -1,7 +1,7 @@
 {
   "name": "Java API Search (JDK 9-13)",
   "description" : "Search the Java API directly within the Chrome Omnibox.",
-  "version": "0.0.1.0",
+  "version": "0.0.1.1",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
